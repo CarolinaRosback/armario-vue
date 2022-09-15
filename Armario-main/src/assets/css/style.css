@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#101010C9;
+    margin-bottom: 0%;
+}
+
+#container{
+    display:grid;
+    position: relative;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    grid-gap:1vw;
+    justify-content: center;
+    align-content: start;
+    margin-top: 20%;
+}
+
+#container-flex{
+    display:flex;
+}
+
+header{
+    width:100vw;
+    height:25vh;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #FAFD6E; 
+}
+
+p{
+    grid-column: span 6;
+    padding-top: 8vh;
+    font-size: 140%;
+    margin-left:30%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    color: #101010DE;
+}
+
+h1{
+    grid-column: span 6;
+    padding-top: 1%;
+    font-size: 140%;
+    margin-left:40%;
+    font-family:initial;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    display:flex;
+    color:#000;
+    margin-top: 13%;
+}
+
+#logo{
+    grid-column: 1/5;
+}
+
+#logo img{
+    width:10vw;
+    height: 20vh;
+    margin-top: 1%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+#sinal img{
+    width:3vw;
+    height: 5vh;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+
+footer {
+    width:100%;
+    float: left;
+    background-color: #FAFD6E;
+    color:#000;
+    padding: 15px 0 15px 0;
+    text-align: center; 
+}
+
+body{
+    background-color:#A5C1CE;    
+}
+
+#status{
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cor-da-borda{
+    margin: 10px;
+    border: 30px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#retang{
+    grid-column: 1/5;
+}
+  
+#retang img{
+    height: 5vh;
+    width: 11vw;
+    margin-left: 12%;
+    position:absolute;
+    margin-top: 15%;
+}
+
+.todos{
+    grid-column: 1/5;
+}
+  
+.todos p{
+    width:2vw;
+    height:3vh;
+    color:#4F4F4F;
+    margin-left: 13%;
+    position:absolute;
+    font-size: 18px;
+    font-family: initial;
+    margin-top: 12.5%;
+}
+
+#flecha{
+    grid-column: 1/5;
+}
+  
+#flecha img{
+    width:3vw;
+    height:3vh;
+    margin-top: 16.5%;
+    margin-left: 20%;
+}
+
+#primeira{
+  grid-column: 1/5;
+}
+
+#primeira img{
+    width:1.8vw;
+    height:3vh;
+    margin-top: 2%;
+    margin-left: 12%;
+    position:absolute;
+}
+
+.branco{
+    grid-column: 1/5;
+}
+  
+.branco p{
+    width:2vw;
+    height:3vh;
+    color:#4F4F4F;
+    margin-left: 15%;
+    position:absolute;
+    margin-top:-1%;
+    font-family: initial;
+}
+
+#segunda{
+    grid-column: 2/5;
+}
+  
+#segunda img{
+    width:2vw;
+    height:3.5vh;
+    margin-top: 2%;
+    margin-left: 26%;
+    position:absolute;
+}
+  
+.vermelho{
+    grid-column: 2/5;
+}
+    
+.vermelho p{
+    width:2vw;
+    height:3vh;
+    color:#4F4F4F;
+    margin-left: 29%;
+    position:absolute;
+    margin-top:-1%;
+    font-family: initial;
+}
+    
+#terceira{
+    grid-column: 3/5;
+}
+  
+#terceira img{
+    width:2vw;
+    height:3.5vh;
+    margin-top: 2%;
+    margin-left: 40%;
+    position:absolute;
+}
+  
+.verde{
+    grid-column: 3/5;
+}
+    
+.verde p{
+    width:2vw;
+    height:3vh;
+    color:#4F4F4F;
+    margin-left: 43%;
+    position:absolute;
+    margin-top:-1%;
+    font-family: initial;
+}
+
+#retangulo{
+    grid-column: 4/5;
+}
+  
+#retangulo img{
+    width:20vw;
+    height:5vh;
+    margin-top: 2%;
+    margin-left: 68%;
+    position:absolute;
+}
+
+.digite{
+    grid-column: 4/5;
+}
+    
+.digite p{
+    width:20vw;
+    height:3vh;
+    font-size: 18px;
+    margin-left: 69%;
+    position:absolute;
+    color:#4F4F4F;
+    margin-top:-0.5%;
+    font-family: initial;
+}
+
+#lupa{
+    grid-column: 4/5;
+}
+  
+#lupa img{
+    width:3vw;
+    height:3vh;
+    margin-top: 2.5%;
+    margin-left: 85%;
+    position:absolute;
+}
+
+  
+  
+  
+  
+
+
+
+
+
+
